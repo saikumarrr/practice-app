@@ -1,0 +1,22 @@
+li {
+    list-style-type: none;
+    display: inline;    
+    padding: 9px;
+}
+
+li:hover{
+    background-color: peru;
+    cursor: pointer;
+}
+
+
+
+ul{
+    background-color: wheat;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+}
