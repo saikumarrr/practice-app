@@ -1,0 +1,24 @@
+{
+    "headings": [
+        {
+            "name": "Apps"
+        },{
+            "name": "Topics"
+        },{
+            "name": "Edit"
+        }
+    ],
+    "appDetails": [
+        {
+            "name": "Caluclator"
+        },
+        {
+            "name": "Crud",
+            "topics": "Cover All Inputs, all inputs with repeated inputs"
+        },
+        {
+            "name": "Forms",
+            "topics": "Reactive (form builder / form group / form array), template driven"
+        }
+    ]
+}
