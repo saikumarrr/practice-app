@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AppslistComponent } from './appslist/appslist.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     CalcComponent,
     DashboardComponent,
-    NavbarComponent
+    NavbarComponent,
+    AppslistComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,10 @@ import { NavbarComponent } from './navbar/navbar.component';
       {
         "path": "Caluclator",
         component: CalcComponent
+      },
+      {
+        "path": "apps",
+        component: AppslistComponent
       },
     ])
   ],
